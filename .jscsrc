@@ -35,7 +35,7 @@
     "requireDotNotation": true,
     "requireSpacesInForStatement": true,
     "requireSpaceBetweenArguments": true,
-    "requireMultipleVarDecl": true,
+    "requireMultipleVarDecl": false,
     "requireCurlyBraces": [
         "if",
         "else",

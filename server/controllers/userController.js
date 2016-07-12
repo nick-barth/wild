@@ -1,8 +1,6 @@
-var mongoose = require('mongoose');
 var User = require('../data/user');
 var router = require('express').Router();
 var _ = require('lodash');
-
 
 router.route('/user/:id?').get(getUsers).post(addUser).delete(deleteUser);
 
