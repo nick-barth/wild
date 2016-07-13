@@ -6,8 +6,11 @@
   "author": "nick barth",
   "license": "MIT",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
     "express-session": "^1.14.0",
     "lodash": "^3.10.1",
     "method-override": "^2.3.6",
