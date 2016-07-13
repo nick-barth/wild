@@ -17,7 +17,7 @@ let express = require('express')
 app.use(morgan('dev')); // log every request to the console
 app.use(cookieParser()); // read cookies (needed for auth)
 app.use(bodyParser()); // get information from html forms
-// require('./config/passport')(passport); // pass passport for configuration
+require('./config/passport')(passport); // pass passport for configuration
 // required for passport
 app.use(session({ secret: 'hairydogballs' })); // session secret
 app.use(passport.initialize());
